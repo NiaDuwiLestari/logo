@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* base */
+.p-2 {
+  padding: 2rem;
+}
+.p-4 {
+  padding: 4rem;
+}
+.p-5 {
+  padding: 5rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.border {
+  border: 1px solid black;
+}
+.border-items {
+  border: 1px dashed black;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.flex {
+  display: flex;
+}
+.flex-basis-100 {
+  flex-basis: 100px;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.flex-direc-row {
+  flex-direction: row;
+}
+.flex-direc-col {
+  flex-direction: column;
+}
+.flex-just-center {
+  justify-content: center;
+}
+.flex-just-between {
+  justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-self-start {
+  align-self: flex-start;
+}
+
+header {
+  padding: 2rem;
+}
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.tools_img {
+  height: 250px;
+}
+.logos_instansi {
+  height: 250px;
+}
+
+.item img {
+  width: 100px;
+  height: 150px;
+}
+.item_logo img {
+  width: 300px;
+  height: 150px;
+}
+footer {
+  background: black;
+  height: 50px;
+}
+footer h1 {
+  color: #f1f1f1;
+  text-align: center;
+  text-transform: capitalize;
+}
